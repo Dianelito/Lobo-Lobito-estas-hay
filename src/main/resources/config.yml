@@ -1,0 +1,9 @@
+models:
+  wolf:
+    model: "oraxen_model_wolf"
+    animation: "oraxen_animation_wolf"
+    sound: "oraxen_sound_wolf"
+  cub:
+    model: "oraxen_model_cub"
+    animation: "oraxen_animation_cub"
+    sound: "oraxen_sound_cub"

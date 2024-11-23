@@ -1,0 +1,14 @@
+name: LoboLobitoEstasHay
+version: 1.0
+main: com.lobito.Main
+api-version: 1.16.5
+depend: [Oraxen]
+commands:
+  lobito:
+
+    description: Configura o usa el sistema de Lobos.
+
+    usage: /lobito [spawn/config/reload]
+
+    permission: lobito.admin
+
