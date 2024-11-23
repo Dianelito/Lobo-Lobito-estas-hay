@@ -9,7 +9,8 @@ Inglés:
 
 
 config.yml:
-[code=YAML]models:
+
+models:
   wolf:
     model: "oraxen_model_wolf"
     animation: "oraxen_animation_wolf"
@@ -17,10 +18,10 @@ config.yml:
   cub:
     model: "oraxen_model_cub"
     animation: "oraxen_animation_cub"
-    sound: "oraxen_sound_cub"[/code]
+    sound: "oraxen_sound_cub"
 
 messages.yml:
-[code=YAML]oraxen_not_found: "&cOraxen no encontrado. Deshabilitando el plugin."
+oraxen_not_found: "&cOraxen no encontrado. Deshabilitando el plugin."
 plugin_enabled: "&aLobo Lobito Estas Hay activado."
 plugin_disabled: "&cLobo Lobito Estas Hay desactivado."
 only_players: "&cEste comando solo puede ser usado por jugadores."
@@ -29,7 +30,6 @@ wolf_spawned: "&aLobo personalizado generado exitosamente."
 current_config: "&eModelo actual: {model}"
 config_reloaded: "&aConfiguración recargada."
 invalid_command: "&cComando no válido. Usa /lobito [spawn/config/reload]."
-[/code]
 
 
 Dependencies / Dependencias:
